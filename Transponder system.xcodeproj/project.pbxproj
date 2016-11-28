@@ -1,0 +1,258 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A83D613F1BB6173100AFF387 /* Pre-Loop Car Determination.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A83D613D1BB6173100AFF387 /* Pre-Loop Car Determination.cpp */; };
+		A83D61421BB64E4000AFF387 /* Legal Determination.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A83D61401BB64E4000AFF387 /* Legal Determination.cpp */; };
+		A83D61591BB85AA300AFF387 /* Car.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A83D61581BB85AA300AFF387 /* Car.cpp */; };
+		A85783011B8FE497004738A4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A85783001B8FE497004738A4 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A85782FB1B8FE497004738A4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A83D613D1BB6173100AFF387 /* Pre-Loop Car Determination.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Pre-Loop Car Determination.cpp"; sourceTree = "<group>"; };
+		A83D613E1BB6173100AFF387 /* Pre-Loop Car Determination.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "Pre-Loop Car Determination.hpp"; sourceTree = "<group>"; };
+		A83D61401BB64E4000AFF387 /* Legal Determination.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "Legal Determination.cpp"; sourceTree = "<group>"; };
+		A83D61431BB6619C00AFF387 /* Legal Determination.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "Legal Determination.hpp"; sourceTree = "<group>"; };
+		A83D61571BB8499A00AFF387 /* Car.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Car.hpp; path = ../Car.hpp; sourceTree = "<group>"; };
+		A83D61581BB85AA300AFF387 /* Car.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Car.cpp; sourceTree = "<group>"; };
+		A85782FD1B8FE497004738A4 /* Transponder system */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Transponder system"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85783001B8FE497004738A4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A85782FA1B8FE497004738A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A85782F41B8FE497004738A4 = {
+			isa = PBXGroup;
+			children = (
+				A85782FF1B8FE497004738A4 /* Transponder system */,
+				A85782FE1B8FE497004738A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A85782FE1B8FE497004738A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A85782FD1B8FE497004738A4 /* Transponder system */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A85782FF1B8FE497004738A4 /* Transponder system */ = {
+			isa = PBXGroup;
+			children = (
+				A85783001B8FE497004738A4 /* main.cpp */,
+				A83D61571BB8499A00AFF387 /* Car.hpp */,
+				A83D61581BB85AA300AFF387 /* Car.cpp */,
+				A83D613D1BB6173100AFF387 /* Pre-Loop Car Determination.cpp */,
+				A83D613E1BB6173100AFF387 /* Pre-Loop Car Determination.hpp */,
+				A83D61401BB64E4000AFF387 /* Legal Determination.cpp */,
+				A83D61431BB6619C00AFF387 /* Legal Determination.hpp */,
+			);
+			path = "Transponder system";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A85782FC1B8FE497004738A4 /* Transponder system */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85783041B8FE497004738A4 /* Build configuration list for PBXNativeTarget "Transponder system" */;
+			buildPhases = (
+				A85782F91B8FE497004738A4 /* Sources */,
+				A85782FA1B8FE497004738A4 /* Frameworks */,
+				A85782FB1B8FE497004738A4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Transponder system";
+			productName = "Transponder system";
+			productReference = A85782FD1B8FE497004738A4 /* Transponder system */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A85782F51B8FE497004738A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Xiaocheng Yang";
+				TargetAttributes = {
+					A85782FC1B8FE497004738A4 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = A85782F81B8FE497004738A4 /* Build configuration list for PBXProject "Transponder system" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A85782F41B8FE497004738A4;
+			productRefGroup = A85782FE1B8FE497004738A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A85782FC1B8FE497004738A4 /* Transponder system */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A85782F91B8FE497004738A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83D61421BB64E4000AFF387 /* Legal Determination.cpp in Sources */,
+				A83D613F1BB6173100AFF387 /* Pre-Loop Car Determination.cpp in Sources */,
+				A83D61591BB85AA300AFF387 /* Car.cpp in Sources */,
+				A85783011B8FE497004738A4 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A85783021B8FE497004738A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A85783031B8FE497004738A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A85783051B8FE497004738A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A85783061B8FE497004738A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A85782F81B8FE497004738A4 /* Build configuration list for PBXProject "Transponder system" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85783021B8FE497004738A4 /* Debug */,
+				A85783031B8FE497004738A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85783041B8FE497004738A4 /* Build configuration list for PBXNativeTarget "Transponder system" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85783051B8FE497004738A4 /* Debug */,
+				A85783061B8FE497004738A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A85782F51B8FE497004738A4 /* Project object */;
+}
